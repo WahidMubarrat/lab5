@@ -5,6 +5,6 @@ public class Electronics  extends Product  {
         }
         @Override
         public double calculateTotalPrice() {
-            return getUnitPrice()*(1+taxrate);}
+            return getUnitPrice()*(1+ taxrate);}
     }
 
